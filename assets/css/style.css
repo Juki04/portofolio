@@ -161,6 +161,8 @@ section {
     transition: all 0.5s ease;
     position: relative;
     z-index: 2;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
 }
 
 .profile-image:hover {
